@@ -17,7 +17,7 @@ export default function Footer() {
             <a href="#" className="hover:text-white transition-colors">Instagram</a>
             <a href="#" className="hover:text-white transition-colors">Facebook</a>
             <a href="#" className="hover:text-white transition-colors">YouTube</a>
-            <p className="text-sm text-[#c9bda9]">© 2025 Desarrolladora Gimenez Lidia Elisa 💻 </p>
+            <p className="text-sm text-[#c9bda9]">© 2025 -Desarrolladora Gimenez Lidia Elisa 💻- </p>
           </div>
         </div>
       </div>
