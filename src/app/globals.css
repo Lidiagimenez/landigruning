@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+:root {
+  --bg-main: #FAF8F4;
+  --text-main: #111111;
+  --text-muted: #5C5C5C;
+  --forest: #324734;
+  --forest-dark: #223024;
+  --adventure: #D77B30;
+}
+
+html, body { overflow-x: hidden; }
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-y: contain;
+}
+
+/* Container global */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .container { max-width: 1100px; }
+}
+
+/* Texturas acuarela */
+.watercolor-top    { background-image: url('/images/textures/acuarela-izquierda.png.png');          background-repeat: no-repeat; background-position: top center;    background-size: 100% auto; }
+.watercolor-bottom { background-image: url('/images/textures/fondo%20de%20acuarela.png.jpg'); background-repeat: no-repeat; background-position: bottom center; background-size: 100% auto; }
+.watercolor-left   { background-image: url('/images/textures/acuarela-izquierda.png.png');    background-repeat: no-repeat; background-position: left center;   background-size: auto 100%; }
+.watercolor-right  { background-image: url('/images/textures/acuarela-derecha.png.jpg');      background-repeat: no-repeat; background-position: right center;  background-size: auto 100%; }
+
+/* Focus */
+*:focus { outline: 3px solid rgba(50,71,52,0.12); outline-offset: 2px; }
+
+h1, h2, h3 { font-weight: 900; }
